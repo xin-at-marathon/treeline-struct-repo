@@ -141,12 +141,31 @@
 {
 "fieldname": "Name",
 "fieldtype": "Text"
+},
+{
+"fieldname": "Id",
+"fieldtype": "Text"
+},
+{
+"fieldname": "Url",
+"fieldtype": "Text"
+},
+{
+"fieldname": "Scale",
+"fieldtype": "Text"
+},
+{
+"fieldname": "Type",
+"fieldtype": "Choice",
+"format": "Inplace/Landscape/Portrait"
 }
 ],
 "formatname": "figure",
+"icon": "picture",
 "outputlines": [
 "{*Name*}"
 ],
+"spacebetween": false,
 "titleline": "{*Name*}"
 },
 {
@@ -180,6 +199,7 @@
 }
 ],
 "formatname": "list_item_with_head",
+"icon": "bullet_3",
 "outputlines": [
 "{*Name*}"
 ],
@@ -198,7 +218,7 @@
 }
 ],
 "formatname": "paragraph",
-"icon": "text_allcaps",
+"icon": "write",
 "outputlines": [
 "{*Name*}"
 ],
