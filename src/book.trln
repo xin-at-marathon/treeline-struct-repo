@@ -24,13 +24,35 @@
 "fields": [
 {
 "fieldname": "Name",
-"fieldtype": "Text"
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Author",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Title",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Source",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Link",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Date",
+"fieldtype": "OneLineText"
 }
 ],
 "formatname": "bib_item",
+"icon": "tag_blue",
 "outputlines": [
 "{*Name*}"
 ],
+"spacebetween": false,
 "titleline": "{*Name*}"
 },
 {
@@ -41,9 +63,11 @@
 }
 ],
 "formatname": "bibliography",
+"icon": "tag",
 "outputlines": [
 "{*Name*}"
 ],
+"spacebetween": false,
 "titleline": "{*Name*}"
 },
 {
