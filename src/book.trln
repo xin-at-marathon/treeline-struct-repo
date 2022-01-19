@@ -233,7 +233,7 @@
 },
 {
 "fieldname": "Content",
-"fieldtype": "Text",
+"fieldtype": "HtmlText",
 "lines": 3
 }
 ],
