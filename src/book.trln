@@ -306,6 +306,25 @@
 "lines": 3
 }
 ],
+"formatname": "sorted_list_paragraph",
+"icon": "text_list_numbers",
+"outputlines": [
+"{*Name*}"
+],
+"titleline": "{*Name*}"
+},
+{
+"fields": [
+{
+"fieldname": "Name",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Content",
+"fieldtype": "Text",
+"lines": 3
+}
+],
 "formatname": "subparagraph",
 "icon": "text",
 "outputlines": [
@@ -357,6 +376,26 @@
 }
 ],
 "formatname": "unsorted_list",
+"icon": "text_list_bullets",
+"outputlines": [
+"{*Name*}"
+],
+"titleline": "{*Name*}"
+},
+{
+"childtype": "list_item",
+"fields": [
+{
+"fieldname": "Name",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Content",
+"fieldtype": "Text",
+"lines": 3
+}
+],
+"formatname": "unsorted_list_paragraph",
 "icon": "text_list_bullets",
 "outputlines": [
 "{*Name*}"
