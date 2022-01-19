@@ -169,6 +169,26 @@
 "titleline": "{*Name*}"
 },
 {
+"childtype": "subparagraph",
+"fields": [
+{
+"fieldname": "Name",
+"fieldtype": "Text"
+},
+{
+"fieldname": "Content",
+"fieldtype": "Text",
+"lines": 3
+}
+],
+"formatname": "grouped_paragraph",
+"icon": "task_1",
+"outputlines": [
+"{*Name*}"
+],
+"titleline": "{*Name*}"
+},
+{
 "fields": [
 {
 "fieldname": "Name",
@@ -269,6 +289,25 @@
 ],
 "formatname": "sorted_list",
 "icon": "text_list_numbers1",
+"outputlines": [
+"{*Name*}"
+],
+"titleline": "{*Name*}"
+},
+{
+"fields": [
+{
+"fieldname": "Name",
+"fieldtype": "OneLineText"
+},
+{
+"fieldname": "Content",
+"fieldtype": "Text",
+"lines": 3
+}
+],
+"formatname": "subparagraph",
+"icon": "text",
 "outputlines": [
 "{*Name*}"
 ],
