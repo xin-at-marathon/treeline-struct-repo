@@ -237,7 +237,6 @@
 "lines": 3
 }
 ],
-"formathtml": true,
 "formatname": "paragraph",
 "icon": "write",
 "outputlines": [
@@ -284,7 +283,7 @@
 },
 {
 "fieldname": "Content",
-"fieldtype": "Text",
+"fieldtype": "HtmlText",
 "lines": 3
 }
 ],
@@ -303,7 +302,7 @@
 },
 {
 "fieldname": "Content",
-"fieldtype": "Text",
+"fieldtype": "HtmlText",
 "lines": 3
 }
 ],
