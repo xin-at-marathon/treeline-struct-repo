@@ -282,32 +282,13 @@
 "fieldtype": "OneLineText"
 },
 {
-"fieldname": "Paragraph",
+"fieldname": "Content",
 "fieldtype": "Text",
 "lines": 3
 }
 ],
 "formatname": "sorted_list",
 "icon": "text_list_numbers1",
-"outputlines": [
-"{*Name*}"
-],
-"titleline": "{*Name*}"
-},
-{
-"fields": [
-{
-"fieldname": "Name",
-"fieldtype": "OneLineText"
-},
-{
-"fieldname": "Content",
-"fieldtype": "Text",
-"lines": 3
-}
-],
-"formatname": "sorted_list_paragraph",
-"icon": "text_list_numbers",
 "outputlines": [
 "{*Name*}"
 ],
@@ -370,32 +351,12 @@
 "fieldtype": "OneLineText"
 },
 {
-"fieldname": "Paragraph",
-"fieldtype": "Text",
-"lines": 3
-}
-],
-"formatname": "unsorted_list",
-"icon": "text_list_bullets",
-"outputlines": [
-"{*Name*}"
-],
-"titleline": "{*Name*}"
-},
-{
-"childtype": "list_item",
-"fields": [
-{
-"fieldname": "Name",
-"fieldtype": "OneLineText"
-},
-{
 "fieldname": "Content",
 "fieldtype": "Text",
 "lines": 3
 }
 ],
-"formatname": "unsorted_list_paragraph",
+"formatname": "unsorted_list",
 "icon": "text_list_bullets",
 "outputlines": [
 "{*Name*}"
