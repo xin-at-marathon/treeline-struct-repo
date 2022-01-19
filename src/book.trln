@@ -137,6 +137,44 @@
 "titleline": "{*Name*}"
 },
 {
+"childtype": "list_item",
+"fields": [
+{
+"fieldname": "Name",
+"fieldtype": "Text"
+},
+{
+"fieldname": "Content",
+"fieldtype": "HtmlText"
+}
+],
+"formatname": "embed_sorted_list",
+"icon": "text_list_numbers1",
+"outputlines": [
+"{*Name*}"
+],
+"titleline": "{*Name*}"
+},
+{
+"childtype": "list_item",
+"fields": [
+{
+"fieldname": "Name",
+"fieldtype": "Text"
+},
+{
+"fieldname": "Content",
+"fieldtype": "HtmlText"
+}
+],
+"formatname": "embed_unsorted_list",
+"icon": "text_list_bullets",
+"outputlines": [
+"{*Name*}"
+],
+"titleline": "{*Name*}"
+},
+{
 "fields": [
 {
 "fieldname": "Name",
